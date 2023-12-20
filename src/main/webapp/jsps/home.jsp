@@ -14,12 +14,13 @@
 		   A DevOps Engineer in training, that has been studying incredibly hard since July 2022.
 		   During this time he has attained a diverse set of DevOps skills to utilize a variety of application/cloud services for deploying web applications.
 		   In particular, he is skilled with Terraform, Ansible, Docker, and Kubernetes to build+deploy highly available, resilient, 
-		   and secure production-level applications after an intense 6-month program by Landmark Technologies.
-		   In addition, he recently attained a Post Graduate Certificate in Cloud Computing from the University of Texas, Autin, McComb School of Business's Executive Education Program.
+		   and secure production-level applications after an intense 6-month program by Landmark Technologies completed in January 2023.
+		   Then, he enrolled in and just recently attained a Post Graduate Certificate in Cloud Computing from the University of Texas, Autin, 
+		   McComb School of Business's Executive Education Program.
 		   The University of Texas, Austin is currently ranked no 6 in Executive Education - Custom Programs, and Information Systems Graduate Programs.
 		   After Christmas, he aims to learn/master monitoring applications via Prometheus & Grafana, Collecting+tracking application log events via the ELK stack, 
 		   Managing secrets like passwords via Vault, and Optimizing Cloud Costs e.g via Python Scripts & AWS Lambda Serverless Computing.
-		   Then with his training complete, next year by God's grace, he will be blessed for his hardwork, perseverance, and dedication as a DevOps Engineer earning six figures
+		   Finally with his training complete next year by God's grace, he will be blessed for his hardwork, perseverance, and dedication as a DevOps Engineer earning six figures
 		   Amen!!!
 		</h1>
 <hr>
