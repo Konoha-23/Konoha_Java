@@ -13,7 +13,7 @@
 <h1 align="center">This is a custom Java-based webapp/website built by Babatunde.
 		   A DevOps Engineer in training.
 		   He has studied incredibly hard from July 2022 - December 2023.
-		   Learning a diverse set of devops skills to utilize a variety of application/cloud services. 
+		   Learning a diverse set of devops skills to utilize a variety of application/cloud services for deploying web applications.
 		   In particular, he is skilled with linux, git/github, AWS, Terraform, Ansible, Docker, and Kubernetes to build+deploy highly available, 
 		   resilient, and secure production-level applications.
 		   However, he still needs to master monitoring and logging deployed applications, 
