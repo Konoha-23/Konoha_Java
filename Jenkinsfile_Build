@@ -23,7 +23,7 @@ pipeline{
          stage('Build Image'){
             steps{
                 sh "echo build image"
-                sh 'docker build -t konoha:8 .'
+                sh 'docker build -t princebabs/konoha:8 .'
             }
         }
         stage('Push to DockerHub'){
