@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Konoha Web application Project.</h1>
-<h1 align="center">This is a custom Java-based web app/website built by Babatunde.
+<h1 align="center">This is a custom Java-based webapp/website built by Babatunde.
 		   A DevOps Engineer in training.
 		   He has studied incredibly hard from July 2022 - December 2023.
 		   Learning a diverse set of devops skills to utilize a variety of application/cloud services. 
