@@ -17,8 +17,8 @@
 		   and secure production-level applications after an intense 6-month program by Landmark Technologies.
 		   In addition, he recently attained a Post Graduate Certificate in Cloud Computing from the University of Texas, Autin, McComb School of Business's Executive Education Program.
 		   The University of Texas, Austin is currently ranked no 6 in Executive Education - Custom Programs, and Information Systems Graduate Programs.
-		   After Christmas, he aims to learn/master monitor applications via Prometheus & Grafana, collect+track application logging events via the ELK stack, 
-		   manage secrets like passwords via Vault, and optimize cloud costs e.g via Python Scripts & AWS Lambda Serverless Computing
+		   After Christmas, he aims to learn/master monitoring applications via Prometheus & Grafana, Collecting+tracking application log events via the ELK stack, 
+		   Managing secrets like passwords via Vault, and Optimizing Cloud Costs e.g via Python Scripts & AWS Lambda Serverless Computing.
 		   Then with his training complete, next year by God's grace, he will be blessed for his hardwork, perseverance, and dedication as a DevOps Engineer earning six figures
 		   Amen!!!
 		</h1>
