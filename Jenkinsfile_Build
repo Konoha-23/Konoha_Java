@@ -1,37 +1,47 @@
 pipeline{
-    agent { 
-        label 'docker'
-  }
+  agent any 
   tools{
-        maven 'maven'
+    maven "maven"
+  }
+  stages{
+    stage('GitClone'){
+      steps{
+        echo "cloning the lastest applications version"
+        git "https://github.com/Konoha-23/maven-web-application.git"
+      }
     }
-    stages{
-        //stage('Clone Code'){
-        //    steps{
-        //        sh "echo cloning code"
-        //        sh "echo clone code complete"
-        //        git 'https://github.com/Ohubabs/KONOHA_APP.git'
-        //    }
-        //}
-        stage ('Build Webapp'){
-            steps{
-                sh "echo 'Clean Source Code and Build Webapp'"
-                sh "mvn clean package"
-                sh "mvn sonar:sonar"
-            }
-        }
-         stage('Build Image'){
-            steps{
-                sh "echo build image"
-                sh 'docker build -t princebabs/konoha:8 .'
-            }
-        }
-        stage('Push to DockerHub'){
-            steps{
-              sh "echo 'Push Image'"
-              sh 'docker push princebabs/konoha:8'
-                
-            }
-        }
+      stage('Test+Build'){
+      steps{
+        sh "echo Running unitTesting"
+        sh "mvn clean package"
+        echo "echo test successful and backupArtifacts created"
+      }
     }
+      stage('codeQuality'){
+      steps{
+        sh "echo Running detail code analysis"
+        sh "mvn sonar:sonar"
+        sh  "echo All conditions met/passed"
+      }
+    }
+      stage('predeployment'){
+      steps{
+        sh "echo creating docker image"
+        sh "docker build -t princebabs/konoha . "
+        sh "docker push princebabs/konoha"
+      }
+    }
+    //stage('UnDeploy'){
+    //  steps{
+    //    sh "echo UNDEPLOYING existing application"
+    //    sh "docker rm -f webapp"
+    //  }
+    //}
+    stage('deployment'){
+      steps{
+        sh "echo application ready for deployment"
+        sh "docker run -d -p 80:8080 --name konoha princebabs/konoha"
+      }
+    }
+  }
 }
