@@ -9,16 +9,17 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Konoha Web application Project.</h1>
-<h1 align="center">This is a custom Java-based webapp/website built by Babatunde.
-		   A DevOps Engineer in training.
-		   He has studied incredibly hard from July 2022 - December 2023.
-		   Learning a diverse set of devops skills to utilize a variety of application/cloud services for deploying web applications.
-		   In particular, he is skilled with linux, git/github, AWS, Terraform, Ansible, Docker, and Kubernetes to build+deploy highly available, 
-		   resilient, and secure production-level applications.
-		   However, he still needs to master monitoring and logging deployed applications, 
-		   secrets management for passwords, etc, and serverless cost optimization via python to maintain cloud costs
-		   Next year by God's grace, he will be blessed for his hardwork, perseverance, and dedication.
+<h1 align="center">Welcome to The Konoha Web Application Project.</h1>
+<h1 align="center">This is a custom Java-based static webapp/website built by Babatunde.
+		   A DevOps Engineer in training, that has been studying incredibly hard since July 2022.
+		   During this time he has attained a diverse set of DevOps skills to utilize a variety of application/cloud services for deploying web applications.
+		   In particular, he is skilled with Terraform, Ansible, Docker, and Kubernetes to build+deploy highly available, resilient, 
+		   and secure production-level applications after an intense 6-month program by Landmark Technologies.
+		   In addition, he recently attained a Post Graduate Certificate in Cloud Computing from the University of Texas, Autin, McComb School of Business's Executive Education Program.
+		   The University of Texas, Austin is currently ranked no 6 in Executive Education - Custom Programs, and Information Systems Graduate Programs.
+		   After Christmas, he aims to learn/master monitor applications via Prometheus & Grafana, collect+track application logging events via the ELK stack, 
+		   manage secrets like passwords via Vault, and optimize cloud costs e.g via Python Scripts & AWS Lambda Serverless Computing
+		   Then with his training complete, next year by God's grace, he will be blessed for his hardwork, perseverance, and dedication as a DevOps Engineer earning six figures
 		   Amen!!!
 		</h1>
 <hr>
