@@ -9,11 +9,18 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Tesla Web application Project.</h1>
-<h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
-	           We are raising millionaires and billionaires IT professionals in over 50 nations.
-	We offer Training for DevOps with Linux, Kubernetes and Cloud, equipping IT Engineers for best performance.
-	Class34 DevOps MasterClass started on Oct 14, 2023. </h1>
+<h1 align="center">Welcome to Konoha Web application Project.</h1>
+<h1 align="center">This is a custom Java-based web app/website built by Babatunde.
+		   A DevOps Engineer in training.
+		   He has studied incredibly hard from July 2022 - December 2023.
+		   Learning a diverse set of devops skills to utilize a variety of application/cloud services. 
+		   In particular, he is skilled with linux, git/github, AWS, Terraform, Ansible, Docker, and Kubernetes to build+deploy highly available, 
+		   resilient, and secure production-level applications.
+		   However, he still needs to master monitoring and logging deployed applications, 
+		   secrets management for passwords, etc, and serverless cost optimization via python to maintain cloud costs
+		   Next year by God's grace, he will be blessed for his hardwork, perseverance, and dedication.
+		   Amen!!!
+		</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -35,20 +42,20 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/mylandmarklogo.png" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
-                Landmark Technology, 
-		Toronto, Canada
+                Konoha Technology, 
+		Los Angeles, California
 		+1 437 215 2483,
-		mylandmarktech@gmail.com
+		obakinolugbade@gmail.com
 		<br>
-		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
+		<a href="mailto:obakinolugbade@gmail.com">Mail to Konoha Technologies</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center> Landmark Technologies - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Landmark Technologies</a> </small></p>
+<p align=center> Konoha Technologies - Devops Engineer/Consultant in Training </p>
+<p align=center><small>Copyrights 2023 by <a href="https://landmark.devopsnetwork.net/">Landmark Technologies</a> </small></p>
 
 </body>
 </html>
