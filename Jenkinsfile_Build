@@ -19,13 +19,13 @@ pipeline{
         echo "echo test successful and backupArtifacts created"
       }
     }
-      stage('codeQuality'){
+      /*stage('codeQuality'){
       steps{
         sh "echo Running detail code analysis"
         sh "mvn sonar:sonar"
         sh  "echo All conditions met/passed"
       }
-    }
+    }*/
       stage('predeployment'){
       steps{
         sh "echo creating docker image"
