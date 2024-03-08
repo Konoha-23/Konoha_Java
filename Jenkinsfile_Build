@@ -32,12 +32,7 @@ pipeline{
         sh "docker build -t princebabs/konoha . "
       }
     }
-      stage('login to DockerHub'){
-        withCredentials([usernamePassword(credentialsId: 'DockerHub-Credentials', passwordVariable: 'DOCKER_HUB_PASSWORD', usernameVariable: '')]) {
-          sh "docker login -u princebabs -p ${DOKCER_HUB_PASSWORD} "
-      }
-    }
-    stage('Push to DockerHub'){
+      stage('Push to DockerHub'){
       steps{
         sh "docker push princebabs/konoha"
       }
